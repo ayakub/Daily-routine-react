@@ -1,0 +1,38 @@
+[
+    {
+        "id": "633473f44f3acb74756d22a4",
+        "picture": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Breakfast",
+        "time": 0.30
+    },
+    {
+        "id": "633473f46ebdb2849cbf6d64",
+        "picture": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/pByhlftd_X6EC-5-OPz09QskQJw=/1200x630/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/B2JZUUCEONHIPMWI44KIOHJ7OY.jpg",
+        "name": "University",
+        "time": 6
+    },
+    {
+        "id": "633473f498942aa30d2a4986",
+        "picture": "https://thumbs.dreamstime.com/z/indian-lunch-thali-meals-served-chorla-ghat-goa-india-174905078.jpg",
+        "name": "Lunch",
+        "time": 0.30
+    },
+    {
+        "id": "633473f4b8b979fa4f6ba343",
+        "picture": "https://thumbs.dreamstime.com/z/developing-programming-coding-technology-working-software-develop-company-office-141768125.jpg",
+        "name": "Coding",
+        "time": 8
+    },
+    {
+        "id": "633473f4e0cd1103da20115b",
+        "picture": "https://thumbs.dreamstime.com/b/child-girl-sleeping-cute-bed-30442366.jpg",
+        "name": "Sleeping",
+        "time": 7
+    },
+    {
+        "id": "633473f4f8c71a3066e4e363",
+        "picture": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcS_24MX0X3cAUaVqfcpxfUemOk6JFrd3srphtHhO-ti2yg7_oidU9PWPteuJqsSMmn1zIedsQFZijyWHeGtwPs",
+        "name": "Gym",
+        "time": 2
+    }
+]
