@@ -11,24 +11,25 @@ const Main = () => {
             .then(data => setActivity(data))
     }, [])
     return (
-
-        <div>
+        <>
             <Nav></Nav>
-            < div className='full-body' >
-                <div className='activity-side'>
+            <div className='full-container'>
+                < div className='full-body' >
+                    <div className='activity-side'>
 
-                    {
-                        activities.map(activity =>
-                            <Activities datas={activity}
-                                key={activity.id}
-                            ></Activities>)
-                    }
-                </div>
-                <div className='timing-side'>
-                    <Cart></Cart>
-                </div>
-            </div >
-        </div>
+                        {
+                            activities.map(activity =>
+                                <Activities datas={activity}
+                                    key={activity.id}
+                                ></Activities>)
+                        }
+                    </div>
+                    <div className='timing-side'>
+                        <Cart></Cart>
+                    </div>
+                </div >
+            </div>
+        </>
     );
 };
 

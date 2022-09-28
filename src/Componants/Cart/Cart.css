@@ -1,4 +1,55 @@
 .cart {
     position: sticky;
     top: 0;
+    padding-left: 50px;
+}
+
+.cart h4 {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.my-data-1 img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.my-data-1 {
+    display: flex;
+}
+
+.my-data-1 h5 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.my-data-2 {
+    color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-data-3 {
+    margin-top: -35px;
+    color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-btn {
+    display: flex;
+
+}
+
+.second-btn button {
+    margin: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.second-btn button:active {
+    background-color: orange;
 }
