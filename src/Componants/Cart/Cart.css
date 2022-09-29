@@ -38,7 +38,6 @@
 
 .second-btn {
     display: flex;
-
 }
 
 .second-btn button {
@@ -58,4 +57,25 @@
     color: red;
     font-weight: bold;
     font-size: 20px;
+}
+
+@media only screen and (max-width:520px) {
+    .my-data-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-data-2 {
+        display: none;
+    }
+
+    .my-data-3 {
+        display: none;
+    }
+
+    .second-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

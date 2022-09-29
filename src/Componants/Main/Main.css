@@ -22,3 +22,24 @@
     padding-right: 15px;
     padding-top: 15px;
 }
+
+@media only screen and (max-width:520px) {
+    .full-body {
+        display: grid;
+        grid-template-columns: 1fr, 0fr;
+    }
+
+    .activity-side {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:521px) and (max-width: 920px) {
+    .activity-side {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
