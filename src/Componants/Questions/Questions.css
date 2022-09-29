@@ -1,0 +1,22 @@
+.container {
+    margin-top: 60px;
+    background-color: gray;
+    padding-top: 20px;
+}
+
+.questions-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    ;
+}
+
+.questions-container div {
+    border: 3px solid blueviolet;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
