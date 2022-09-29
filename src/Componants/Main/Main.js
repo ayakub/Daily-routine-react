@@ -26,7 +26,6 @@ const Main = () => {
     }
     const handleBreak = (breakTime) => {
         let newTime = [...breaks, breakTime]
-
         SetBreaks(newTime)
     }
     return (

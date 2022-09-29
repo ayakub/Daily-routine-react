@@ -31,17 +31,17 @@ const Cart = ({ cart, handleBreak, buttonValue }) => {
             </div>
             <h4>Add a break</h4>
             <div className='second-btn'>
-                <button onClick={() => handleBreak(2)}>2</button>
-                <button onClick={() => handleBreak(1)}>1</button>
-                <button onClick={() => handleBreak(0.5)}>0.5</button>
-                <button onClick={() => handleBreak(1.5)}> <span>1.5</span></button>
+                <button onClick={() => handleBreak(2)}>2 <span>m</span></button>
+                <button onClick={() => handleBreak(5)}>5 <span>m</span></button>
+                <button onClick={() => handleBreak(10)}>10<span>m</span></button>
+                <button onClick={() => handleBreak(15)}> <span>15<span>m</span></span></button>
             </div>
             <div>
                 <h3>Excercise Details</h3>
                 <p>Excercise Time: <span className='excercise-time'>{excerciseTime.toFixed(2)}H</span></p>
             </div>
             <div className='break-time'>
-                <p>Break Time:{buttonValue} </p>
+                <p>Break Time:{buttonValue} <span>m</span></p>
             </div>
             <div>
 
