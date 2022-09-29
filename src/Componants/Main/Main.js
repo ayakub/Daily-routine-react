@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
 import Cart from '../Cart/Cart';
 import Nav from '../Nav/Nav';
+import Questions from '../Questions/Questions';
 import './Main.css'
 const Main = () => {
     const [activities, setActivity] = useState([]);
     const [cart, setCart] = useState([]);
+
     // const [break, setBreak] = useState(0)
     useEffect(() => {
         fetch('routine.json')
