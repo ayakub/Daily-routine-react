@@ -40,6 +40,10 @@ const Cart = ({ cart }) => {
                 <h3>Excercise Details</h3>
                 <p>Excercise Time: <span className='excercise-time'>{excerciseTime.toFixed(2)}H</span></p>
             </div>
+            <div className='break-time'>
+                <p>Break Time:</p>
+                <h3>4H</h3>
+            </div>
             <div>
 
             </div>

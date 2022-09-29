@@ -68,6 +68,16 @@
     font-size: 20px;
 }
 
+.break-time {
+    display: flex;
+    align-items: center;
+}
+
+.break-time h3 {
+    margin-left: 15px;
+    color: blueviolet;
+}
+
 @media only screen and (max-width:520px) {
     .my-data-1 {
         display: flex;
