@@ -1,8 +1,8 @@
 import React from 'react';
 import './Activities.css'
 
-const Activities = ({ datas }) => {
-    const { name, picture, time } = datas;
+const Activities = ({ activity, handleExcerciseTime }) => {
+    const { name, picture, time } = activity;
     return (
         <div className='activity'>
             <img src={picture} alt="" />
@@ -10,7 +10,8 @@ const Activities = ({ datas }) => {
                 <h3>{name}</h3>
                 <h5>{time}H</h5>
             </div>
-            <button className='btn-list' type='submit'><p>Add to list</p></button>
+
+            <button onClick={() => handleExcerciseTime(activity)} className='btn-list' type='submit'><p>Add to list</p></button>
         </div>
     );
 };

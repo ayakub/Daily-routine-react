@@ -3,7 +3,7 @@
         "id": "633473f44f3acb74756d22a4",
         "picture": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Breakfast",
-        "time": 0.30
+        "time": 0.5
     },
     {
         "id": "633473f46ebdb2849cbf6d64",
@@ -15,7 +15,7 @@
         "id": "633473f498942aa30d2a4986",
         "picture": "https://thumbs.dreamstime.com/z/indian-lunch-thali-meals-served-chorla-ghat-goa-india-174905078.jpg",
         "name": "Lunch",
-        "time": 0.30
+        "time": 0.5
     },
     {
         "id": "633473f4b8b979fa4f6ba343",

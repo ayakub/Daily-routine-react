@@ -2,7 +2,11 @@ import React from 'react';
 import './Cart.css'
 import Logo from '../pic/pic.jpg'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
+    let excerciseTime = 0;
+    for (const activity of cart) {
+        excerciseTime = excerciseTime + activity.time
+    }
     return (
         <div className='cart'>
             <div className='my-data-1'>
@@ -23,9 +27,12 @@ const Cart = () => {
             <div className='second-btn'>
                 <button>2H</button>
                 <button>1H</button>
-                <button>30M</button>
-                <button>40M</button>
+                <button>0.5H</button>
                 <button>1.5H</button>
+            </div>
+            <div>
+                <h3>Excercise Details</h3>
+                <p>Excercise Time: <span className='excercise-time'>{excerciseTime.toFixed(2)}H</span></p>
             </div>
             <div>
 

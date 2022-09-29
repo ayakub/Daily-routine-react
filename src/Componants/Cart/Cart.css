@@ -53,3 +53,9 @@
 .second-btn button:active {
     background-color: orange;
 }
+
+.excercise-time {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
