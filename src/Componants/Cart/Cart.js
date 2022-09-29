@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = ({ cart, handleBreak, buttonValue }) => {
+    console.log(buttonValue)
     let excerciseTime = 0;
     for (const activity of cart) {
         excerciseTime = excerciseTime + activity.time;

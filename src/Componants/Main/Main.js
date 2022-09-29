@@ -6,7 +6,7 @@ import './Main.css'
 const Main = () => {
     const [activities, setActivity] = useState([]);
     const [cart, setCart] = useState([]);
-    const [breaks, SetBreaks] = useState([])
+    const [breaks, setBreaks] = useState([0])
 
     // const [break, setBreak] = useState(0)
     useEffect(() => {
@@ -14,19 +14,13 @@ const Main = () => {
             .then(res => res.json())
             .then(data => setActivity(data))
     }, []);
-    // const buttonFunction = (butttonId) => {
-    //     console.log(butttonId);
-    //     const newTime = break;
-    //     setBreak(butttonId)
-    // }
     const handleExcerciseTime = (activity) => {
         console.log(activity)
         const newCart = [...cart, activity]
         setCart(newCart)
     }
     const handleBreak = (breakTime) => {
-        let newTime = [...breaks, breakTime]
-        SetBreaks(newTime)
+        setBreaks(breakTime)
     }
     return (
         <div>
