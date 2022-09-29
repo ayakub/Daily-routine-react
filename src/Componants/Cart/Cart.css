@@ -49,6 +49,15 @@
     color: white;
 }
 
+.btn-toast {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 10px 20px;
+    border: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
 .second-btn button:active {
     background-color: orange;
 }

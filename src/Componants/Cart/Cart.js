@@ -1,11 +1,17 @@
 import React from 'react';
 import './Cart.css'
 import Logo from '../pic/pic.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = ({ cart }) => {
     let excerciseTime = 0;
     for (const activity of cart) {
         excerciseTime = excerciseTime + activity.time
+    }
+
+    const diffToast = () => {
+        toast("Wow Activity Very Good")
     }
     return (
         <div className='cart'>
@@ -37,6 +43,20 @@ const Cart = ({ cart }) => {
             <div>
 
             </div>
+            <div>
+                <button className='btn-toast' onClick={diffToast}>Activity Complete</button>
+            </div>
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
         </div>
     );
 };
