@@ -4,10 +4,10 @@ import Logo from '../pic/pic.jpg'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleBreak, buttonValue }) => {
     let excerciseTime = 0;
     for (const activity of cart) {
-        excerciseTime = excerciseTime + activity.time
+        excerciseTime = excerciseTime + activity.time;
     }
 
     const diffToast = () => {
@@ -31,18 +31,17 @@ const Cart = ({ cart }) => {
             </div>
             <h4>Add a break</h4>
             <div className='second-btn'>
-                <button>2H</button>
-                <button>1H</button>
-                <button>0.5H</button>
-                <button>1.5H</button>
+                <button onClick={() => handleBreak(2)}>2</button>
+                <button onClick={() => handleBreak(1)}>1</button>
+                <button onClick={() => handleBreak(0.5)}>0.5</button>
+                <button onClick={() => handleBreak(1.5)}> <span>1.5</span></button>
             </div>
             <div>
                 <h3>Excercise Details</h3>
                 <p>Excercise Time: <span className='excercise-time'>{excerciseTime.toFixed(2)}H</span></p>
             </div>
             <div className='break-time'>
-                <p>Break Time:</p>
-                <h3>4H</h3>
+                <p>Break Time:{buttonValue} </p>
             </div>
             <div>
 
@@ -61,7 +60,7 @@ const Cart = ({ cart }) => {
                 draggable
                 pauseOnHover
             />
-        </div>
+        </div >
     );
 };
 

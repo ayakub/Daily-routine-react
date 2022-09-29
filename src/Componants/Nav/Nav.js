@@ -8,7 +8,6 @@ const Nav = () => {
         <div className='nav-container'>
             <h2><FontAwesomeIcon icon={faWalking}></FontAwesomeIcon> Everydays Activities</h2>
             <h4>Select's Your Activities</h4>
-
         </div>
     );
 };
